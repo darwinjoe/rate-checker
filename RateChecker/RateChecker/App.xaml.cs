@@ -1,5 +1,4 @@
-﻿using RateChecker.Services;
-using RateChecker.Views;
+﻿using RateChecker.Views;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -13,7 +12,7 @@ namespace RateChecker
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
+            //DependencyService.Register<MockDataStore>();
             MainPage = new AppShell();
         }
 

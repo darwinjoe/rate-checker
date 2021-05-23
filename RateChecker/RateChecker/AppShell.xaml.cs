@@ -1,4 +1,4 @@
-﻿using RateChecker.ViewModels;
+﻿
 using RateChecker.Views;
 using System;
 using System.Collections.Generic;
@@ -11,8 +11,8 @@ namespace RateChecker
         public AppShell()
         {
             InitializeComponent();
-            Routing.RegisterRoute(nameof(ItemDetailPage), typeof(ItemDetailPage));
-            Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
+            //Routing.RegisterRoute(nameof(ItemDetailPage), typeof(ItemDetailPage));
+            //Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
         }
 
         private async void OnMenuItemClicked(object sender, EventArgs e)
